@@ -1,64 +1,116 @@
-# A Roadmap to Python Mastery  
+Python Mastery Roadmap
 
-Welcome to **A Roadmap to Python Mastery**, a structured and comprehensive guide for anyone looking to master Python programming. This repository provides step-by-step learning resources, practical examples, and projects to help you progress from a beginner to an advanced Python developer.  
+Welcome to the Python Mastery Roadmap repository! This repository is designed to provide a structured and comprehensive guide for mastering Python programming. Whether you are a beginner or an intermediate programmer, this roadmap will help you build a solid foundation and progress toward advanced topics.
 
-## Table of Contents  
-1. [About](#about)  
-2. [Who Is This For?](#who-is-this-for)  
-3. [Roadmap Overview](#roadmap-overview)  
-4. [Features](#features)  
-5. [How to Use This Repository](#how-to-use-this-repository)  
-6. [Technologies Covered](#technologies-covered)  
-7. [Future Plans](#future-plans)  
-8. [Contributing](#contributing)  
-9. [Contact](#contact)  
+Repository Structure
 
----
+This repository consists of 35 well-organized Python files, each covering an essential topic or concept. Below is the list of files along with their corresponding topics:
 
-## About  
+01. Getting familiar with python.py - Introduction to Python basics.
 
-Python is a versatile and beginner-friendly programming language widely used in fields such as web development, data science, artificial intelligence, and automation. **A Roadmap to Python Mastery** provides curated content and practical exercises to guide learners through the essential topics and advanced concepts of Python.  
+02. Variables and Data Types.py - Understanding variables and data types.
 
-## Who Is This For?  
+03. Operators.py - Exploring Python operators.
 
-This roadmap is for:  
-- Beginners with no prior programming experience.  
-- Intermediate developers looking to deepen their Python knowledge.  
-- Professionals exploring advanced Python topics like AI, data science, and web development.  
+04. Strings.py - Working with strings in Python.
 
-## Roadmap Overview  
+05. If- elif- else.py - Conditional statements.
 
-1. **Beginner Level**  
-   - Introduction to Python  
-   - Variables, Data Types, and Basic Operations  
-   - Conditional Statements and Loops  
-   - Functions and Modules  
+06. Match Case.py - Using match-case statements.
 
-2. **Intermediate Level**  
-   - Object-Oriented Programming (OOP)  
-   - File Handling  
-   - Exception Handling  
-   - Working with Libraries (e.g., NumPy, Pandas)  
+07. For loop.py - Iteration using for loops.
 
-3. **Advanced Level**  
-   - Data Structures and Algorithms  
-   - Web Development with Flask/Django  
-   - Automation with Python  
-   - Machine Learning Basics  
+08. While Loops.py - Iteration using while loops.
 
-4. **Projects and Practice**  
-   - Build mini-projects like a calculator, to-do app, and more.  
-   - Real-world projects like web scrapers, chatbots, and data analysis.  
+09. Break and Continue.py - Controlling loop execution.
 
-## Features  
+10. Functions.py - Defining and using functions.
 
-- Step-by-step roadmap for structured learning.  
-- Practical examples and exercises for hands-on practice.  
-- Links to additional resources like tutorials, books, and videos.  
-- Real-world project ideas to build a portfolio.  
+11. List.py - Working with lists in Python.
 
-## How to Use This Repository  
+12. Tuple.py - Understanding tuples.
 
-1. Clone the repository:  
-   ```bash  
-   git clone https://github.com/yourusername/A-Roadmap-to-Python-Mastery.git  
+13. Set.py - Exploring sets.
+
+14. Dictionary.py - Working with dictionaries.
+
+15. Exception Handling.py - Managing exceptions.
+
+16. Customized Errors.py - Creating custom error classes.
+
+17. Import.py - Importing modules and packages.
+
+18. File Operations.py - Reading and writing files.
+
+19. Map.py - Using the map() function.
+
+20. OOP.py - Introduction to Object-Oriented Programming.
+
+21. Constructor.py - Understanding constructors.
+
+22. Decorators.py - Exploring decorators.
+
+23. Getters and Setters.py - Working with getters and setters.
+
+24. Inheritance.py - Understanding inheritance.
+
+25. Access Specifiers or Access Modifiers.py - Using access specifiers.
+
+26. Static Method.py - Exploring static methods.
+
+27. Class Method.py - Working with class methods.
+
+28. Magic- Dunder Method.py - Exploring Python’s magic methods.
+
+29. Overriding.py - Method overriding in Python.
+
+30. Single Inheritance.py - Single inheritance.
+
+31. Multiple Inheritance.py - Multiple inheritance.
+
+32. Multilevel Inheritance.py - Multilevel inheritance.
+
+33. Hybrid Inheritance.py - Hybrid inheritance.
+
+34. Hierarchical Inheritance.py - Hierarchical inheritance.
+
+35. Time Module.py - Working with Python’s time module.
+
+How to Use This Repository
+
+Clone the Repository:
+
+git clone https://github.com/SaurabhSSB/Python-Mastery-Roadmap.git
+
+Navigate through the files in sequence to learn each topic step-by-step.
+
+Run the Python files to practice and understand the concepts.
+
+Modify the files or add new examples to enhance your understanding.
+
+Prerequisites
+
+A working installation of Python 3.x.
+
+A code editor like VS Code, PyCharm, or Jupyter Notebook.
+
+Contribution Guidelines
+
+If you would like to contribute:
+
+Fork the repository.
+
+Make your changes.
+
+Create a pull request with a detailed explanation of your updates.
+
+License
+
+This repository is licensed under the MIT License. Feel free to use and modify the content for personal or educational purposes.
+
+Author
+
+Created with ❤️ by Saurabh Singh Bhandari. For any questions or feedback, feel free to reach out at saurabhsinghbhandarissb@gmail.com.
+
+Happy coding and enjoy your Python learning journey!
+
