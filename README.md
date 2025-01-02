@@ -82,11 +82,11 @@ Open the .py file in your code editor or IDE.
 Run the scripts using Python 3.x.
 Modify the examples to test your understanding.
 
-📖 Prerequisites
+### 📖 **Prerequisites**
 Python 3.x installed on your system.
 A code editor or IDE like VSCode, PyCharm, or Jupyter Notebook.
 
-🤝 Contributing
+### 🤝 **Contributing**
 I always welcome contributions!
 
 Fix errors or typos.
