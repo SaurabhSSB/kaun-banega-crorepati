@@ -74,11 +74,11 @@ The repository is organized into directories based on topics, each containing Py
 git clone https://github.com/SaurabhSSB/Python-Mastery-Roadmap.git
 
 ```
-Step 2: Navigate Through the Topics
+### **Step 2: Navigate Through the Topics**
 Explore the folders to find the topic you're learning.
 Open the .py file in your code editor or IDE.
 
-Step 3: Run and Experiment
+### **Step 3: Run and Experiment**
 Run the scripts using Python 3.x.
 Modify the examples to test your understanding.
 
