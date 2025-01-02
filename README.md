@@ -93,12 +93,12 @@ Fix errors or typos.
 Add new examples or topics.
 Submit a pull request.
 
-🛠️ License
+### 🛠️ **License**
 This repository is licensed under the MIT License. Feel free to use it for learning or teaching purposes.
 
-📧 Contact
+### 📧 **Contact**
 For any queries or suggestions, feel free to reach out:
-Email: [saurabhsinghbhandarissb@gmail.com]
-GitHub: https://github.com/SaurabhSSB
+**Email**: [saurabhsinghbhandarissb@gmail.com]
+**GitHub**: https://github.com/SaurabhSSB
 
 
