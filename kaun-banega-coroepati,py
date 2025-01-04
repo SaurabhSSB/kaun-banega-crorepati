@@ -1,0 +1,76 @@
+import random
+
+# Questions, options, correct answers, and lifelines
+questions = [
+    {
+        "question": "Who was the first Prime Minister of India?",
+        "options": ["1. Mahatma Gandhi", "2. Jawaharlal Nehru", "3. Sardar Patel", "4. Subhas Chandra Bose"],
+        "answer": 2,
+    },
+    {
+        "question": "Which is the largest planet in our solar system?",
+        "options": ["1. Earth", "2. Mars", "3. Jupiter", "4. Saturn"],
+        "answer": 3,
+    },
+    {
+        "question": "What is the capital of France?",
+        "options": ["1. Berlin", "2. Madrid", "3. Paris", "4. Rome"],
+        "answer": 3,
+    },
+    {
+        "question": "Which Indian cricketer is known as the 'God of Cricket'?",
+        "options": ["1. Virat Kohli", "2. MS Dhoni", "3. Sachin Tendulkar", "4. Kapil Dev"],
+        "answer": 3,
+    },
+]
+
+prizes = [1000, 5000, 10000, 50000]  # Prize money for each question
+
+# Lifeline: 50-50
+def use_5050(question):
+    correct_option = question["answer"]
+    wrong_options = [i for i in range(1, 5) if i != correct_option]
+    random.shuffle(wrong_options)
+    return [correct_option, wrong_options[0]]
+
+# Main game function
+def play_game():
+    print("Welcome to Kaun Banega Crorepati!\n")
+    print("Answer the questions correctly to win prizes!\n")
+    
+    current_prize = 0
+    lifeline_used = False
+
+    for i, question in enumerate(questions):
+        print(f"Question {i + 1}: {question['question']}")
+        for option in question["options"]:
+            print(option)
+
+        if not lifeline_used:
+            print("\nType '50-50' to use the lifeline, or choose an option (1-4):")
+        else:
+            print("\nChoose an option (1-4):")
+
+        answer = input().strip()
+
+        if answer == "50-50" and not lifeline_used:
+            lifeline_used = True
+            reduced_options = use_5050(question)
+            print("\nLifeline activated! The remaining options are:")
+            for opt in reduced_options:
+                print(question["options"][opt - 1])
+            answer = input("\nChoose an option (1-4): ").strip()
+        
+        if answer.isdigit() and int(answer) == question["answer"]:
+            current_prize = prizes[i]
+            print(f"Correct! You've won ₹{current_prize}.\n")
+        else:
+            print(f"Wrong answer! The correct answer was {question['answer']}.")
+            print(f"You won ₹{current_prize}. Better luck next time!\n")
+            break
+    else:
+        print(f"Congratulations! You've answered all questions and won ₹{current_prize}!\n")
+
+# Start the game
+if __name__ == "__main__":
+    play_game()
